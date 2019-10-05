@@ -1,0 +1,11 @@
+(rollno  = 1:10)
+(name = paste('A', 1:10, sep=''))
+(course = sample(c('Mkt','Fi'), size=10, replace=T))
+(gender = sample(c('M','F'), size=10, replace=T))
+df2 = data.frame(rollno, name, course, gender)
+class(df2)
+str(df2)
+df2
+head(df2)
+tail(df2)
+head(df2, n=7)
